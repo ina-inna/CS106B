@@ -1,9 +1,3 @@
-/*
- * TODO: remove and replace this file header comment
- * This is a .cpp file you will edit and turn in.
- * Remove starter comments and add your own
- * comments on each function and on complex code sections.
- */
 #include "console.h"
 #include <iostream>
 #include "SimpleTest.h"
@@ -53,9 +47,6 @@ void findPerfects(long stop) {
     cout << endl << "Done searching up to " << stop << endl;
 }
 
-/* TODO: Replace this comment with a descriptive function
- * header comment.
- */
 long smarterSum(long n) {
     /* TODO: Fill in this function. */
 
@@ -73,17 +64,12 @@ long smarterSum(long n) {
     return total;
 }
 
-/* TODO: Replace this comment with a descriptive function
- * header comment.
- */
 bool isPerfectSmarter(long n) {
     /* TODO: Fill in this function. */
     return (n != 0) && n == smarterSum(n);
 }
 
-/* TODO: Replace this comment with a descriptive function
- * header comment.
- */
+
 void findPerfectsSmarter(long stop) {
      /* TODO: Fill in this function. */
     for (long num = 1; num < stop; num++) {
@@ -95,9 +81,7 @@ void findPerfectsSmarter(long stop) {
     cout << endl << "Done searching up to " << stop << endl;
 }
 
-/* TODO: Replace this comment with a descriptive function
- * header comment.
- */
+
 long findNthPerfectEuclid(long n) {
     /* TODO: Fill in this function. */
     if (n < 1) {
@@ -119,8 +103,6 @@ long findNthPerfectEuclid(long n) {
 
 
 /* * * * * * Test Cases * * * * * */
-
-// TODO: add your STUDENT_TEST test cases here!
 
 /*
  * Here is sample test demonstrating how to use a loop to set the input sizes
