@@ -1,9 +1,4 @@
-/*
- * TODO: remove and replace this file header comment
- * This is a .cpp file you will edit and turn in.
- * Remove starter comments and add your own
- * comments on each function and on complex code sections.
- */
+
 #include <cctype>
 #include <fstream>
 #include <string>
@@ -21,14 +16,7 @@ using namespace std;
 /* This function is intended to return a string which
  * includes only the letter characters from the original
  * (all non-letter characters are excluded)
- *
- * WARNING: The provided code is buggy!
- *
- * Add student test cases to identify which inputs to this function
- * are incorrectly handled. Then, remove this comment and
- * replace it with a description of the bug you fixed.:
- *
- *
+
  * Previous code added the first character of the string without checking if it's a letter character.
  * I fixed this.
  */
